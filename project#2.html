@@ -1,0 +1,263 @@
+<!DOCTY{PE html>
+<html>
+<head>
+	<title>PROJECT#2</title>
+		<!--first I assign classes and id to multiple tags than after that align them in the center and after that i changed the background color and text color of every tags and also applied padding,float,,border,width,margin etc properties on them-->
+		<!--NOW WE WILL APPLY CSS RESET STYLESHEET-->
+	<style >
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, ,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output,  section, summary,
+time, mark, audio, video {
+  margin: 5;
+	padding: 10;
+	border: 2;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+		#head1,#main1,#foot1{
+			text-align: center;
+			height: auto;
+			width: auto;
+		}
+		#foot1,#la1,#la2,#la3,#la4{
+			margin-top: 20px;
+			width: 80%;
+			padding: 2%;
+			margin-left: 6%;
+			text-align:center;
+			border:2px solid green;
+			border-radius: 5px;
+			font-style: bold;
+			font-size: 16px;
+			background-color: purple;
+
+			
+		}
+		.navbar{
+			width:100%;
+			background-color: grey;
+			overflow: auto;
+		}
+		.navbar a{
+			float: left;
+			padding: 12px;
+			color:white;
+			font-size: 20px;
+
+		}
+		.navbar a:hover{
+			background-color: green;
+		}
+		.active{
+			background-color: black;
+		}
+		@media  screen and (max-width: 500px){
+			.navbar a{
+				float: none;
+				display: block;
+			}
+		}
+		@media screen and (max-width: 700px) {
+			#head1,#main1,#foot1{
+				font-size: 25px;
+				padding: 30px;
+				border: 6px solid yellow;
+			
+		}
+	}
+	@media screen and (max-width: 550),(min-width: 400) {
+		#head1,#main1,#foot1{
+			font-size: 10px;
+			padding: 20px;
+			border:8px solid purple;
+		
+	}
+}
+#head1{
+	color:white;
+}
+.para1,.para2,.para3,.para4{
+	color:yellowgreen;
+	background-color: lightblue;
+}
+.logo{
+	width: 46px;
+}
+
+
+	</style>
+
+
+</head>
+<!--FIRST I WILL CHANGE THE BACKGROUND COLOR OF MY WESBSITE ;)-->
+
+<body background="
+https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Wallpaper-HD-Background-Download.png
+ " style="background-size: cover;">
+
+
+		<!--MENU-->
+		<div class="navbar">
+			<img  class="logo" src="http://flightlineinsignia.com/wp-content/uploads/2017/08/ARS-909-1078-1.jpg">
+			<a href="#" class="active">HOME</a>
+			<a href="#" >SEARCH</a>
+			<a href="#">ADMN PANEL</a>
+			
+		</div>
+
+	<!--START OF AN HEADER-->
+	<header id="head1">
+	<!--FIRST AS USUAL I WILL MAKE AN HEADING AND PARAGRAGH-->
+	<H1 >SIMPLE WEBSITE</H1>
+	<P >THIS WEBSITE IS ABOUT STORIES AND BOOK</P>
+	</header>
+	<!--END OF HEADER-->
+
+<main id="main1">
+
+
+	<!--MAIN CONTENT IN WHICH  I WILL BE USING U AND IFRAME TAGS WHERE The <u> element was originally used to identify text that should be underlined AND An IFrame (Inline Frame) is an HTML document embedded inside another HTML document on a website.videos-->
+		<DIV class="para1">
+			<H2>Sylvester and the Magic Pebble</H2>
+			<U>n a rainy day, Sylvester finds a magic pebble that can make wishes come true. But when a lion frightens him on his way home, Sylvester makes a wish that brings unexpected results. How Sylvester is eventually reunited with his loving family and restored to his true self makes a story that is beautifully tender and filled with magic.
+</U>
+		
+		
+		<iframe  src="https://www.youtube-nocookie.com/embed/BNGUnk8JeLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: auto;
+  margin-right: auto;
+  display: block;
+"></iframe>
+</DIV>
+		<div class="para2">
+			<h3>The Empty Pot</h3>
+			<u>
+				The Chinese Emperor announces an unusual test to choose an heir—the child who raises the best flowers from a seed given by the Emperor will be his successor. Ping, unaccountably, is unable to get his seed to sprout—but Ping’s empty pot is best of all.
+
+			</u>
+	
+	
+	<iframe src="https://www.youtube-nocookie.com/embed/a9K-sAKdk2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: auto;
+  margin-right: auto;
+  display: block;
+"></iframe>
+		</div>
+		<div class="para3" >
+			<h4>When Pigasso Met Mootisse </h4>
+			<u>
+				What begins as a neighborly overture between a painterly pig and an artsy cow escalates into a monumental modern art mess! Before you can say paint-by-numbers, the two artists are calling each other names and building a fence between them. But it turns out that what divides them also reunites them.
+			</u>
+		
+		
+		<iframe  src="https://www.youtube-nocookie.com/embed/EldIXkzI0dY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: auto;
+  margin-right: auto;
+  display: block;
+"></iframe>
+		</div>
+		<div class="para4" >
+			<h5>The House That Jane Built </h5>
+			<u>
+				This is the story of Jane Addams, the first American woman to receive the Nobel Peace Prize, who transformed a poor neighborhood in Chicago by opening up her house as a community center.
+
+			</u>
+	
+		
+<iframe  src="https://www.youtube-nocookie.com/embed/qITsQKHAZy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="margin-left: auto;
+  margin-right: auto;
+  display: block;"></iframe>
+
+		</div>
+		
+              </main>
+		<!--END OF THE MAIN BODY-->
+
+<!--START OF FOOTER HERE I WILL MAKE A SMALL FORM IN WHICH I WILL BE USING INPUT,BUTTON,LABEL AND TEXTAREA TAGS WHERE The <input> tag specifies an input field where the user can enter data.The <label> defines a text label for the <input> tag.The <button> tag is used to create clickable buttons on the web page-->
+	<footer id="foot1">
+		<DIV id="la1">
+		<LABEL>FIRST NAME</LABEL>
+		<input type="text" name="fname" placeholder="enter your name">
+	</DIV>
+	<div id="la2">
+		<label>LAST NAME</label>
+		<input type="text" name="lname" placeholder="enter your last name">
+	</div>
+	<div id="la3">
+		<label>POST</label>
+		<textarea></textarea>
+	</div>
+	<div id="la4">
+	<form action="https://help.formstack.com/hc/article_attachments/360015218271/image-1.jpeg">
+		<input type="submit" value="submit">
+	</form>
+	</div>
+	</footer>
+	<!--END OF FOOTER-->
+</body>
+</html>
